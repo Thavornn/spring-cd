@@ -1,0 +1,10 @@
+replicaCount: 1
+namespace: spring-cd
+image:
+  repository: "pinkmelon/hw-spring-product"
+  tag: 13
+  
+
+service:
+  type: LoadBalancer
+  port: 9091
