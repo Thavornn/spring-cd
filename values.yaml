@@ -2,7 +2,7 @@ replicaCount: 1
 namespace: spring-cd
 image:
   repository: "pinkmelon/hw-spring-product"
-  tag: 17
+  tag: 18
   
 
 service:
